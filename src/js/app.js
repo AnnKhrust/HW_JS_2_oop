@@ -1,6 +1,16 @@
-// TODO: write your code here
-import sum from './basic';
+export default class Character {
+    constructor(name, type) = {
+        if typeof (name) != 'string' || name.length < 2 || name.length > 10 {
+            throw new Error('Выберите другое имя')
+        }
+        if (!typeof.includes(type)) {
+            throw new Error('Такой тип персонажа не существует')
+        }
+    }
 
-console.log('worked');
-
-console.log(sum([1, 2]));
+    this.name = name;
+    this.type = type;
+    this.health = 100;
+    this.level = 1;
+    
+}

@@ -1,7 +1,7 @@
 {
   "name": "ajs",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
@@ -33,5 +33,13 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AnnKhrust/HW_JS_2_oop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnnKhrust/HW_JS_2_oop/issues"
+  },
+  "homepage": "https://github.com/AnnKhrust/HW_JS_2_oop#readme"
 }
