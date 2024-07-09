@@ -1,5 +1,5 @@
 import './css/style.css';
 
-import './js/app';
+import {character, bowman, daemon, magician, swordsman, undead, zombie} from './js'
 
 // TODO: write your code in app.js

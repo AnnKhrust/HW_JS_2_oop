@@ -42,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/AnnKhrust/HW_JS_2_oop/issues"
   },
-  "homepage": "https://github.com/AnnKhrust/HW_JS_2_oop#readme"
+  "homepage": "https://github.com/AnnKhrust/HW_JS_2_oop#readme",
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
 }
